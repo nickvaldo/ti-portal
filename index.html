@@ -89,7 +89,7 @@
                                 <a href="index.html" >Home</a>
                             </li>
                             <li class="dropdown">
-                                <a href="profile.html" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="caret"></span></a>
+                                <a href="profile.html" class="dropdown-toggle" >Profile <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
                                         <li><a href="profile.html#visimisi">Visi & Misi</a></li>
@@ -113,7 +113,7 @@
         ==================================================
         Carousel Section Start
         ==================================================-->
-        <section style="padding-top:100px">
+        <section style="padding-top:70px">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -133,7 +133,6 @@
                         <div class="carousel-caption">
                         </div>
                     </div>
-                    ...
                 </div>
 
                 <!-- Controls -->
@@ -157,15 +156,30 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-8">
                             <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                                <h2>
-                                ABOUT ME
-                                </h2>
-                                <iframe width="100%" height="315px" src="https://www.youtube.com/embed/5HhyHmlVFd4"></iframe>
+                                <iframe width="100%" src="https://www.youtube.com/embed/5HhyHmlVFd4"></iframe>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4" id="latest_news">
                             <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                                <img src="images/about/about.jpg" alt="">
+                                <h2>Latest News</h2>
+                                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                                    <div class="img-wrapper">
+                                        <img src="images/news/news01.png" class="img-responsive" alt="this is a title" >
+                                        <div class="overlay">
+                                            <div class="buttons">
+                                                <a rel="gallery" class="fancybox" href="images/news/news01.png">View</a>
+                                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption>
+                                        <h4>
+                                            <a href="#">
+                                                Teknik Informatika UMN Cetak Hasil Karya Berstandard Industri
+                                            </a>
+                                        </h4>
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -175,156 +189,67 @@
             ==================================================
             Portfolio Section Start
             ================================================== -->
-            <section id="event" class="works">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Events</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s">
-                            Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
+            <div id="new-parallax">
+                <section id="event" class="works">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-heading col-md-3">
+                                <h1 class="title wow fadeInDown" data-wow-delay=".3s">Events</h1>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-12">
+                                        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                                            <div class="img-wrapper">
+                                                <img src="images/event/event01.png" class="img-responsive" alt="this is a title" >
+                                                <div class="overlay">
+                                                    <div class="buttons">
+                                                        <a rel="gallery01" class="fancybox" href="images/event/event01.png">View</a>
+                                                        <a target="_blank" href="single-portfolio.html">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <figcaption>
+                                            <h4>
+                                            <a href="#">
+                                                Computer Science Expo 2016
+                                            </a>
+                                            </h4>
+                                            <p>
+                                                Redesigne UI Concept"Creative and Interactive Application of Computer Science in New Media"
+                                            </p>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="300ms">
+                                            <div class="img-wrapper">
+                                                <img src="images/event/event02.png" class="img-responsive" alt="this is a title" >
+                                                <div class="overlay">
+                                                    <div class="buttons">
+                                                        <a rel="gallery01" class="fancybox" href="images/event/event02.png">View</a>
+                                                        <a target="_blank" href="single-portfolio.html">Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <figcaption>
+                                            <h4>
+                                            <a href="#">
+                                                Computer Science Expo 2015
+                                            </a>
+                                            </h4>
+                                            <p>
+                                                -
+                                            </p>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                 </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Dew Drop
-                                </a>
-                                </h4>
-                                <p>
-                                    Redesigne UI Concept
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Bottle Mockup
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Table Design
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-4.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Make Up elements
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-5.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Shoping Bag Concept
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-6.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Caramel Bottle
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
-                                </figcaption>
-                            </figure>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section> <!-- #works -->
+                </section> <!-- #works -->
+            </div>
             <!--
             ==================================================
             Portfolio Section Start
@@ -341,138 +266,60 @@
                         <div class="col-sm-4 col-xs-12">
                             <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                                 <div class="img-wrapper">
-                                    <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title" >
+                                    <img src="images/news/news01.png" class="img-responsive" alt="this is a title" >
                                     <div class="overlay">
                                         <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
+                                            <a rel="gallery" class="fancybox" href="images/news/news01.png">View</a>
                                             <a target="_blank" href="single-portfolio.html">Details</a>
                                         </div>
                                     </div>
                                 </div>
                                 <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Dew Drop
-                                </a>
-                                </h4>
-                                <p>
-                                    Redesigne UI Concept
-                                </p>
+                                    <h4>
+                                        <a href="#">
+                                            Teknik Informatika UMN Cetak Hasil Karya Berstandard Industri
+                                        </a>
+                                    </h4>
                                 </figcaption>
                             </figure>
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <figure class="wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
                                 <div class="img-wrapper">
-                                    <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title" >
+                                    <img src="images/news/news02.png" class="img-responsive" alt="this is a title" >
                                     <div class="overlay">
                                         <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
+                                            <a rel="gallery" class="fancybox" href="images/news/news02.png">View</a>
                                             <a target="_blank" href="single-portfolio.html">Details</a>
                                         </div>
                                     </div>
                                 </div>
                                 <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Bottle Mockup
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit.
-                                </p>
+                                    <h4>
+                                        <a href="#">
+                                            Teknik Informatika UMN Jadi 10 Prodi TI Terfavorit Versi Majalah HAI
+                                        </a>
+                                    </h4>
                                 </figcaption>
                             </figure>
                         </div>
                         <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <figure class="wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
                                 <div class="img-wrapper">
-                                    <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
+                                    <img src="images/news/news03.png" class="img-responsive" alt="" >
                                     <div class="overlay">
                                         <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
+                                            <a rel="gallery" class="fancybox" href="images/news/news03.png">View</a>
                                             <a target="_blank" href="single-portfolio.html">Details</a>
                                         </div>
                                     </div>
                                 </div>
                                 <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Table Design
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-4.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Make Up elements
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-5.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Shoping Bag Concept
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-6.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                                            <a target="_blank" href="single-portfolio.html">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="#">
-                                    Caramel Bottle
-                                </a>
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor.
-                                </p>
+                                    <h4>
+                                        <a href="#">
+                                            Excellent Future is on Your Choice
+                                        </a>
+                                    </h4>
                                 </figcaption>
                             </figure>
                         </div>
