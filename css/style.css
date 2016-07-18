@@ -2,17 +2,30 @@
 
 #top-bar.animated-header{
     background-color: #004D68;
+    border-bottom: 1px solid #004D68;
 }
 #top-bar{
     background-color: #007CA5;
-    border-bottom: 1px solid #004D68;
+    border-bottom: 1px solid #007CA5;
     color: #fff;
 }
+#top-bar.animated-header .main-menu li.active{
+    background-color: #007CA5;
+    padding: 0px;
+}
+#top-bar .main-menu li.active{
+    background-color: #02bdd5;
+    border-radius: 25px;
+}
+#top-bar .main-menu li.active a,
 #top-bar .main-menu li a{
-    color: #fff;
+    color:#fff;
+    padding-left: 25px;
+    padding-right: 25px;
 }
+#top-bar .main-menu li.active a:hover,
 #top-bar .main-menu li a:hover{
-    color: #888;
+    color:#888;
 }
 .navbar-brand img{
     padding-left: 10px;
@@ -25,33 +38,60 @@
     }
 }
 .navbar-brand ul li{
-    display: inline-block;
+    display: list-item;
+    /*display:  inline-block;*/
 }
-.navbar-brand ul li:nth-child(2){
+.navbar-brand ul li{
     font-family: 'Roboto',sans-serif;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
     padding-left: 10px;
-    text-transform:  uppercase;
+    text-transform: capitalize;
+}
+.navbar-brand ul li:nth-child(2){
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: normal;
+    font-style: italic;
+}
+@media(min-width:768px){
+    .navbar-brand ul li{
+        font-size: 18px;
+    }
+    .navbar-brand ul li:nth-child(2){
+        font-size: 15px;
+    }
 }
 section#about,
+section#profile,
 section#event,
 section#news{
     padding: 30px 0px;
 }
 @media(min-width:768px){
     section#about,
+    section#profile,
     section#event,
     section#news{
-        padding: 20px 0px;
+        padding: 50px 0px;
     }
 }
-#about iframe{
-    height: 200px;
+#profile{
+    padding: 0px;
+    background-color: rgba(0, 124, 165, 0.5);:
+}
+#profile .title{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #fff;
+}
+#profile iframe{
+    height: 100%;
 }
 @media(min-width:768px){
-    #about iframe{
-        height: 300px;
+    #profile iframe{
+        height:450px;
     }
 }
 #about .block h2{
@@ -168,4 +208,222 @@ section#news{
 #vm.works{
     background-color: transparent;;
 
+}
+#hero-area{
+    padding: 120px 0px 100px 0px;
+}
+#hero-area img{
+    width: 100%;
+    padding: 0% 30%;
+}
+#hero-area h2{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+@media(min-width:768px){
+    #hero-area{
+        padding: 150px 0px 50px 0px;
+    }
+    #hero-area img{
+        width: 100%;
+        padding: 0% 40%;
+    }
+    #hero-area h2{
+        text-align: center;
+        margin: 50px 0px 0px 0px;
+    }
+}
+@media(min-width:1024px){
+    #hero-area{
+        padding: 200px 0px 150px 0px;
+    }
+    #hero-area img{
+        width: 100%;
+        padding: 0% 20%;
+    }
+    #hero-area h2{
+        text-align: left;
+        margin: 50px 0px 0px 0px;
+    }
+}
+#feature{
+    padding: 30px 0px;
+}
+#feature .media{
+    margin: 0px;
+}
+#spesialisasi img{
+    width: 100%;
+    padding: 0% 20%;
+}
+@media(min-width:768px){
+    #spesialisasi img{
+        width: 100%;
+        padding: 0% 30%;
+    }
+}
+@media(min-width:1024px){
+    #feature{
+        padding: 70px 0px 50px 0px;
+    }
+    #spesialisasi img{
+        width: 100%;
+        padding: 0% 10%;
+    }
+}
+#visimisi{
+    background-color: #FCFCFC;
+    color: #000;
+    padding: 80px 0px 50px;
+}
+#visimisi h1.title{
+    font-size: 30px;
+    letter-spacing: normal;
+}
+#visimisi h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#visimisi p{
+    font-size: 15px;
+    text-align: justify;
+}
+#visimisi .clear-fix{
+    padding: 5px 0px;
+}
+#misi-small{
+    display: inline;
+}
+#misi-large{
+    display: none;
+}
+#visimisi .section-heading{
+    margin: 0px;
+    padding: 20px 0px;
+}
+@media(min-width:768px){
+    #visimisi p{
+        font-size: 16px;
+        padding: 0px 5%;
+    }
+}
+@media(min-width:1024px){
+    #visimisi h1.visi{
+        padding-top: 0%;
+        font-size: 100px;
+    }
+    #visimisi h1.misi{
+        padding-top:5%;
+        font-size: 100px;
+    }
+    #visimisi .clear-fix{
+        padding: 25px 0px;
+    }
+    #misi-small{
+        display: none;
+    }
+    #misi-large{
+        display: inline;
+    }
+}
+#faculty-member{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 30px;
+}
+#faculty-member .title{
+    font-size: 40px;
+    padding: 20px 0px 20px;
+    color: #fff;
+}
+#faculty-member .section-heading{
+    margin: 0px;
+}
+#faculty-member img{
+    width:100%;
+    padding: 0% 25%;
+    margin: 0px 0px 30px;
+}
+#faculty-member h4.media-heading{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#faculty-member .separator{
+    width: 80%;
+}
+#faculty-member p{
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+#faculty-member #member-small{
+    display: inline;
+}
+#faculty-member #member-large{
+    display: none;
+}
+@media(min-width:768px){
+    #faculty-member img{
+        padding: 0% 40%;
+    }
+    #faculty-member p{
+        padding: 0% 5%;
+        text-align: justify;
+    }
+    #faculty-member .separator{
+        width: 70%;
+    }
+    #faculty-member p{
+        text-align: center;
+    }
+}
+@media(min-width:1024px){
+    #faculty-member img{
+        padding: 0% 20%;
+    }
+    #faculty-member .title{
+        margin-bottom: 50px;
+    }
+    #faculty-member p{
+        padding: 0% 5%;
+        text-align: justify;
+    }
+    #faculty-member .separator{
+        width: 50%;
+    }
+    #faculty-member #member-small{
+        display: none;
+    }
+    #faculty-member #member-large{
+        display: inline;
+    }
+    #faculty-member .separator{
+        width: 70%;
+    }
+    #faculty-member #memberOne .separator{
+        margin-left: 0;
+    }
+    #faculty-member #memberTwo .separator{
+        margin-right: 0;
+    }
+    #faculty-member h4{
+        padding: 0% 5%;
+    }
+    #faculty-member #memberOne h4{
+        text-align: left;
+    }
+    #faculty-member #memberTwo h4{
+        text-align: right;
+    }
+    #faculty-member #memberOne p{
+        direction: ltr;
+    }
+    #faculty-member #memberTwo p{
+        direction: rtl;
+    }
+}
+#member-detail{
+    padding: 0px 5%;
 }
