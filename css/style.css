@@ -252,23 +252,71 @@ section#news{
 #feature .media{
     margin: 0px;
 }
+#spesialisasi h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#spesialisasi .specialization-item{
+    border-right: 1px solid #ddd;
+    margin-top: 20px;
+}
+#spesialisasi .specialization-item:nth-child(2),
+#spesialisasi .specialization-item:nth-child(4),
+#spesialisasi .specialization-item:nth-child(6){
+    border-right: 0px solid #ddd;
+}
+#spesialisasi .specialization-item .specialization-item-description{
+    height:200px;
+    overflow: scroll;
+}
 #spesialisasi img{
     width: 100%;
     padding: 0% 20%;
 }
 @media(min-width:768px){
+    #spesialisasi h1{
+        font-size: 40px;
+    }
     #spesialisasi img{
         width: 100%;
         padding: 0% 30%;
+    }
+    #spesialisasi .specialization-item{
+        margin-top: 50px;
+    }
+    #spesialisasi .specialization-item:nth-child(2),
+    #spesialisasi .specialization-item:nth-child(4){
+        border-right: 1px solid #ddd;
+    }
+    #spesialisasi .specialization-item:nth-child(3){
+        border-right: 0px solid #ddd;
+    }
+    #spesialisasi .specialization-item .specialization-item-description{
+        height:150px;
     }
 }
 @media(min-width:1024px){
     #feature{
         padding: 70px 0px 50px 0px;
     }
+    #spesialisasi h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
     #spesialisasi img{
         width: 100%;
         padding: 0% 10%;
+    }
+    #spesialisasi .specialization-item{
+        margin-top: 10px;
+    }
+    #spesialisasi .specialization-item:nth-child(3){
+        border-right: 1px solid #ddd;
+    }
+    #spesialisasi .specialization-item .specialization-item-description{
+        height:250px;
+        overflow: hidden;
     }
 }
 #visimisi{
